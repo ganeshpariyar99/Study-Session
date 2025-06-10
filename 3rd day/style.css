@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#56DFCF ;
+    height: 100vh;
+}
+
+header{
+    height: auto;
+    background-color: #0ABAB5;
+    padding: 20px;
+}
+
+
+header h1{
+    text-align: center;
+    color: rgb(61, 14, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    height: 100%;
+    background-color: 56DFCF;
+}
+
+section div.card{
+    height: auto;
+    width: 400px;
+    background-color:white;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+section div.card img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: auto auto 20px auto;
+}
+
+section div.card h2, section div.card p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10%;
+    text-align: center;
+}
+
+section div.card p.mainpara{
+    color: brown;
+}
+
+section div.card p.para{
+    line-height: 1.50;
+}
+
+section div.card button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-top: 10%;
+}
+
+section div.card button a{
+    background-color: rgb(120, 195, 214);
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10%;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color:blanchedalmond;
+    padding: 10px 5px;
+}
