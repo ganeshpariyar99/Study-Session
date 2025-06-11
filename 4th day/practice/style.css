@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+}
+section {
+  /* align-items: center; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div{
+    margin: 10px;
+    padding: 10px;
+}
+section div p.pro{
+    background-color: yellow;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    object-fit: cover;
+    align-items: cen
+}
+
+section div img.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+section div h1 , h4{
+    text-align: center;
+}
+
+section div p.p2{
+    text-align: center;
+}
+
+section div button.btn1{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    margin-right: 5px;
+    border: none;
+}
+
+section div button.btn2{
+    text-align: center;
+    background-color: transparent;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    margin-right: 5px;
+    border: 1px solid aqua;
+    color: aqua;
+
+}
+
+section div.div3 , div.div2{
+    text-align: center;
+}
+
+section div{
+  background-color: black;
+  color: white;
+  align-items: center;
+
+}
+section div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid;
+  margin: 20px ;
+  text-align: center;
+}
