@@ -5,34 +5,44 @@
 }
 
 body {
-  background-color: blue;
+  background-color: rgb(17, 175, 223);
 }
 section {
   /* align-items: center; */
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
+  height: 600px;
+  width: 500px;
+  margin: auto;
   align-items: center;
   justify-content: center;
 }
 
-div{
-    margin: 10px;
+section div{
+    margin: 15px;
     padding: 10px;
 }
+  
+section div.div2{
+  margin: auto;
+}
+h1{
+  padding: 5px;
+}
 section div p.pro{
-    background-color: yellow;
-    margin: 5%;
-    padding: 2%;
+    background-color: rgb(233, 200, 11);
+    margin: 5px;
+    padding: 10px;
     border-radius: 10px;
     width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-img{
+/* img{
     object-fit: cover;
-    align-items: cen
-}
+    align-items: center
+} */
 
 section div img.profile{
     display: flex;
@@ -46,6 +56,7 @@ section div h1 , h4{
 
 section div p.p2{
     text-align: center;
+    padding: 10px;
 }
 
 section div button.btn1{
@@ -70,12 +81,17 @@ section div button.btn2{
 
 }
 
-section div.div3 , div.div2{
+section div.div2{
     text-align: center;
 }
 
+section div.div3{
+  text-align: center;
+}
+
+
 section div{
-  background-color: black;
+  background-color: rgb(5, 2, 26);
   color: white;
   align-items: center;
 
@@ -87,4 +103,28 @@ section div img {
   border: 3px solid;
   margin: 20px ;
   text-align: center;
+}
+
+footer{
+  color:goldenrod;
+  background-color:rgb(9, 1, 20);
+  margin: auto;
+  padding: 4px;
+}
+
+footer div.footer{
+  background-color: transparent;
+}
+
+footer div button{
+  background-color: transparent;
+  color: white;
+  margin: 3px;
+  padding: 10px;
+  border: 2px solid;
+  border-color: rgb(3, 26, 26);
+  border-radius: 10px;
+}
+footer h2.fothed{
+  color: white;
 }
