@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #d4cece;
+    box-shadow: 10px 10px 10px rgb(20, 2, 20);
+    border-radius: 10px 0px 0px 0px;
+}
+
+nav div img{
+    width: 100px;
+}
