@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav div.name{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+nav span.gname{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 10px 2px 10px gray;
+    /* flex-direction:row-reve; */
+}
+
+nav div.div2{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav div.div3{
+    display: flex;
+    list-style: none;
+}
+
+nav div.div3 form{
+    border: none;
+    background-color: rgb(105, 128, 128);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    /* gap: 10px; */
+}
+
+nav div.div3 form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    margin: 10px;
+    height: 10px;
+}
+
+
+nav div.div3 form label i{
+    color: black;
+    background: none;
+}
+
+
+
+
+button.login{
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+    padding: 5px;
+}
+
+button.sign{
+    border: none;
+    background-color: rgb(8, 119, 245);
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
