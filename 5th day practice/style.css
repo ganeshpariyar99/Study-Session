@@ -8,8 +8,48 @@ nav{
     background-color: #d4cece;
     box-shadow: 10px 10px 10px rgb(20, 2, 20);
     border-radius: 10px 0px 0px 0px;
+    height: 60px;
 }
 
 nav div img{
+    width: 50px;
+    height: 40px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 10px 2px 10px gray;
+    /* flex-direction:row-reve; */
+}
+
+
+nav div button.contact{
+    background-color:blue;
+    border-radius: 10px;
     width: 100px;
+    height: 25px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav div button.contact:hover{
+    background-color: black;
+    color: #d4cece;
+    cursor:pointer;
 }

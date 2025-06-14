@@ -50,11 +50,12 @@ ul li a{
 nav div.div3{
     display: flex;
     list-style: none;
+    /* background-color: transparent; */
 }
 
 nav div.div3 form{
     border: none;
-    background-color: rgb(105, 128, 128);
+    background-color: rgb(197, 188, 188);
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
@@ -65,11 +66,14 @@ nav div.div3 form input{
     background-color: transparent;
     border: none;
     outline: none;
-    color: black;
+    color: rgb(204, 69, 69);
     margin: 10px;
     height: 10px;
 }
 
+input::placeholder{
+    color: white;
+}
 
 nav div.div3 form label i{
     color: black;
